@@ -1,0 +1,9 @@
+Here is some test Java;
+
+for(int x = 0; x<10; x++){
+	sout(x);
+	sout(x+1);
+	cat{
+	}
+}
+java;
