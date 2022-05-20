@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec <<< FAILURE!
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockedWrite()  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockedWrite(SyncMechLockTest.java:101)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testRead()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testRead(SyncMechLockTest.java:115)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testWrite()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testWrite(SyncMechLockTest.java:131)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testCleanUp()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testCleanUp(SyncMechLockTest.java:145)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testGetName()  Time elapsed: 0.038 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <Mutual Exclusion Lock>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testGetName(SyncMechLockTest.java:48)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockAcquire()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockAcquire(SyncMechLockTest.java:60)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockRelease()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockRelease(SyncMechLockTest.java:72)
+
+uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockedRead()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at uk.ac.cam.cl.hh497.syncframe.SyncMechLockTest.testLockedRead(SyncMechLockTest.java:85)
+
